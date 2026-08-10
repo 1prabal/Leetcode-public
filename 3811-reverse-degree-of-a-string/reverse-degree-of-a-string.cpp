@@ -1,7 +1,7 @@
 class Solution {
 public:
     int reverseDegree(string s) {
-        map<char,int> m;
+        unordered_map<char,int> m;
         int value = 26;
         for(char i='a'; i<='z'; i++){
             m[i] = value--;
